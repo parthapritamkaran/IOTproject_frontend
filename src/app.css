@@ -1,0 +1,150 @@
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.dashboard {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.sidebar {
+  width: 360px;
+  background: #111827;
+  border-right: 1px solid #1f2937;
+  padding: 16px;
+  overflow-y: auto;
+}
+
+.sidebar h2 {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.map-area {
+  flex: 1;
+}
+
+.map-container {
+  width: 100%;
+  height: 100%;
+}
+
+.panel {
+  background: #1e293b;
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 14px;
+}
+
+.panel h3,
+.panel h4 {
+  margin-top: 0;
+}
+
+.panel label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.panel select {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+}
+
+.truck-card {
+  margin-top: 10px;
+  border: 1px solid #334155;
+}
+
+.truck-card p {
+  margin: 6px 0;
+}
+
+.alert-group {
+  margin-bottom: 14px;
+}
+
+.alert-red {
+  color: #f87171;
+}
+
+.alert-yellow {
+  color: #fde047;
+}
+
+.alert-orange {
+  color: #fb923c;
+}
+
+.legend-dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.truck1 {
+  background: #3b82f6;
+}
+
+.truck2 {
+  background: #10b981;
+}
+
+.red {
+  background: #ef4444;
+}
+
+.yellow {
+  background: #facc15;
+}
+
+.orange {
+  background: #f97316;
+}
+
+.legend-line {
+  display: inline-block;
+  width: 24px;
+  height: 4px;
+  
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.leg{
+  display: inline-block;
+  width: 24px;
+  height: 4px;
+  background: #10b981;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.haul-road {
+  background: #000000;
+}
+
+.truck1-line {
+  background: #3b82f6;
+}
+
+.truck2-line {
+  background: #10b981;
+}
